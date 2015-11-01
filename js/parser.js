@@ -1,4 +1,5 @@
 module.exports = parser;
+
 function parser(tokenArray) {
     var tagArray = [];
     var nodeHeap = [];
@@ -18,9 +19,8 @@ function parser(tokenArray) {
     var selfEndTags = ['img', 'br', 'hr', 'col', 'area', 'link', 'meta', 'frame', 'input', 'param'];
     tagArray.forEach(function(item, index) {
         if (item[0] == '!' || selfEndTags.indexOf(item) != -1) {
-            //自封闭标签、注释
             nodeHeap[nodeHeap.length - 1].children.push({
-                name: item[0] == '!' ? '<!--comment-->' : item,
+                name: item[0] == '!' && item[1] == '-' && item[2] == '-' ? '<!--comment-->' : item,
                 children: []
             });
         } else {

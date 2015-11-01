@@ -73,3 +73,19 @@ function draw() {
 $('#html').keyup(function(){
     draw();
 })
+
+var tmp = '<!DOCTYPE html>\n\
+<html>\n\
+<head>\n\
+    <title>DOM-Drawer</title>\n\
+    <link rel="stylesheet" type="text/css" href="style.css">\n\
+    <script type="text/javascript" herf="index.js"></script>\n\
+</head>\n\
+<body>\n\
+    <!--这是注释-->\n\
+    <p>Hello,World!</p>\n\
+</body>\n\
+</html>';
+
+$('#html').val(tmp);
+draw();
