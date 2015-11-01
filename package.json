@@ -1,0 +1,24 @@
+{
+  "name": "dom-drawer",
+  "version": "1.0.0",
+  "description": "A small toy to help you draw the DOM structure",
+  "main": "index.js",
+  "dependencies": {
+    "echarts": "^2.2.7-amd-beta2",
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starkwang/DOM-Drawer.git"
+  },
+  "author": "starkwang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/starkwang/DOM-Drawer/issues"
+  },
+  "homepage": "https://github.com/starkwang/DOM-Drawer#readme"
+}
