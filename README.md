@@ -5,9 +5,9 @@ http://segmentfault.com/a/1190000003937571
 
 #用100行代码画出DOM树状结构
 
-这两天写了这样一个[小玩具](http://blog.starkwang.com/DOM-Drawer/)，是一个可以把DOM的树状结构解析，并且画出来的东西，把HTML代码写到左边，右边就会自动生成啦。
+这两天写了这样一个[小玩具](http://starkwang.github.io/DOM-Drawer/)，是一个可以把DOM的树状结构解析，并且画出来的东西，把HTML代码写到左边，右边就会自动生成啦。
 
-[点这里看DEMO](http://blog.starkwang.com/DOM-Drawer/)
+[点这里看DEMO](http://starkwang.github.io/DOM-Drawer/)
 
 源码在[github · starkwang/DOM-Drawer](https://github.com/starkwang/DOM-Drawer)，使用webpack打了个包。绘图部分依赖了百度开源的 [ECharts](http://echarts.baidu.com/)，核心功能的实现只有100行代码。
 
