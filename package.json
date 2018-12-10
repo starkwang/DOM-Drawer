@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "echarts": "^2.2.7-amd-beta2",
-    "jquery": "^2.1.4"
+    "jquery": "^3.0.0"
   },
   "devDependencies": {},
   "scripts": {
